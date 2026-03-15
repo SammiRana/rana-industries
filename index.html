@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rana Industries | Zibika Cleaning Products</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f6f9;
+}
+
+/* HEADER */
+
+header{
+background:#0f172a;
+color:white;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(120deg,#1e3a8a,#0ea5e9);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:60px 30px;
+text-align:center;
+}
+
+.products h2{
+font-size:35px;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0 6px 15px rgba(0,0,0,0.1);
+overflow:hidden;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card h3{
+margin:15px 0 5px;
+}
+
+.card p{
+font-size:14px;
+padding:0 10px 15px;
+}
+
+/* CONTACT */
+
+.contact{
+background:#1e293b;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.contact form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:20px;
+}
+
+.contact input,
+.contact textarea{
+padding:12px;
+border-radius:6px;
+border:none;
+font-size:16px;
+}
+
+.contact textarea{
+height:120px;
+}
+
+.contact button{
+background:#0ea5e9;
+color:white;
+border:none;
+padding:12px;
+border-radius:6px;
+font-size:18px;
+cursor:pointer;
+}
+
+/* CALL BUTTON */
+
+.call-btn{
+display:inline-block;
+margin:10px;
+padding:12px 25px;
+background:#22c55e;
+color:white;
+text-decoration:none;
+border-radius:6px;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+font-size:18px;
+text-decoration:none;
+box-shadow:0 5px 10px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+
+footer{
+background:#020617;
+color:#aaa;
+text-align:center;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>Rana Industries</h2>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Zibika Cleaning Products</h1>
+
+<p>Powerful Cleaning Solutions for Every Home</p>
+
+</section>
+
+<section class="products" id="products">
+
+<h2>Our Products</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1">
+<h3>Zibika Detergent Powder</h3>
+<p>Strong stain remover detergent powder</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f">
+<h3>Zibika Liquid Detergent</h3>
+<p>Best liquid detergent for washing machines</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604335399105-a0c585fd81a1">
+<h3>Zibika Dish Wash</h3>
+<p>Removes tough grease from utensils</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1603712725038-e9334ae8f39f">
+<h3>Zibika Floor Cleaner</h3>
+<p>Kills germs and leaves freshness</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583947582886-f40ec95dd752">
+<h3>Zibika Hand Wash</h3>
+<p>Gentle hygienic hand wash formula</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1596464716127-f2a82984de30">
+<h3>Zibika Toilet Cleaner</h3>
+<p>Powerful toilet cleaning liquid</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Order / Contact Rana Industries</h2>
+
+<p>Email: sammirana3657353@gmail.com</p>
+
+<p>Phone: +91 7979735351</p>
+
+<p>Location: Siwan, Bihar</p>
+
+<a class="call-btn" href="tel:+917979735351">📞 Call Now</a>
+
+<p>Fill this form to ask product details or place order</p>
+
+<form action="https://formsubmit.co/sammirana3657353@gmail.com" method="POST">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="email" name="Email" placeholder="Your Email" required>
+
+<input type="text" name="Phone" placeholder="Phone Number">
+
+<textarea name="Message" placeholder="Write your order or question"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<a class="whatsapp" href="https://wa.me/917979735351">WhatsApp</a>
+
+<footer>
+
+<p>© 2026 Rana Industries | Zibika Cleaning Products</p>
+
+</footer>
+
+</body>
+</html>
